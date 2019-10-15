@@ -16,8 +16,8 @@ class Dog
   end
   def breed=(dogs_breed)
     @breed = dogs_name
+  end
 end
-
 fido = Dog.new
 fido.name = "Fido"
 fido.breed = "Mutt"
