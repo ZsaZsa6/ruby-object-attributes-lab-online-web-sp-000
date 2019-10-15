@@ -3,21 +3,21 @@ class Dog
   #    @dogs_name = name
   #    @dogs_breed = breed
   #  end
-    def name=(dogs_name)
-      @this_dogs_name = dogs_name
+    def name=(name)
+      @dogs_name = name
     end
 
     def name
-      @this_dogs_name
+      @dogs_name
     end
 
 
    def breed
-    @this_dogs_breed
+    @dogs_breed
   end
 
-  def breed=(dogs_breed)
-    @this_dogs_breed = dogs_breed
+  def breed=(breed)
+    @dogs_breed = breed
   end
 end
 fido = Dog.new
