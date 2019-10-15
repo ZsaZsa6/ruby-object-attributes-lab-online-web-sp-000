@@ -10,7 +10,7 @@ class Dog
     def name
       @this_dogs_name
     end
-  end
+
 
    def breed
     @this_dogs_breed
@@ -20,7 +20,6 @@ class Dog
     @this_dogs_breed = dogs_breed
   end
 end
-
 fido = Dog.new
 fido.name ="Fido"
 fido.breed == "Beagle"
