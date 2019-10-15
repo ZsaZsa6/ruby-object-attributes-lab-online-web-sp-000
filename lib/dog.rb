@@ -15,5 +15,5 @@ class Dog
   end
 end
 fido = Dog.new
-fido.name = "Lassie"
-fido.breed = "Collie"
+fido.name = "Fido"
+fido.breed = "Mutt"
